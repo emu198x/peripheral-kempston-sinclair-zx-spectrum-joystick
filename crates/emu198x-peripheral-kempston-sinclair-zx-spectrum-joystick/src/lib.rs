@@ -49,7 +49,7 @@
 //! See `knowledge/decisions/spectrum-joystick-architecture.md` for the
 //! reasoning trail.
 
-use common_sinclair_zx_spectrum::peripheral::Peripheral;
+use emu198x_bus_sinclair_zx_spectrum::Peripheral;
 
 /// Kempston joystick button bits, as they appear on the read byte at `$1F`.
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash)]
